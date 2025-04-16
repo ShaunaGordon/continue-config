@@ -1,0 +1,17 @@
+# We only want the customization stuff. Most everything else is cache or data stuff that Continue uses internally.
+*
+!.gitignore
+!config.yaml
+
+!assistants/
+!assistants/**/*
+!context/
+!context/**/*
+!docs/
+!docs/**/*
+!models/
+!models/**/*
+!prompts/
+!prompts/**/*
+!rules/
+!rules/**/*

@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+name: Vue Rules
+version: 1.0.0
+schema: v1
+
+rules:
+  - Assume Vue3 unless otherwise specified.
+  - Follow Vue3 best practices.
+  - Modularize components into smaller, reusable pieces.
+  - Always use Composition API unless otherwise specified.

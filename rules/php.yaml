@@ -1,0 +1,10 @@
+%YAML 1.1
+---
+name: JavaScript Rules
+version: 1.0.0
+schema: v1
+
+rules:
+  - Assume the latest version of PHP unless otherwise specified.
+  - Follow PHP-FIG standards as much as possible, using the latest released PSRs.
+  - Use as few dependencies as possible, but suggest libraries when an established and maintained one is available.

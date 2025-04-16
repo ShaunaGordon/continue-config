@@ -1,0 +1,25 @@
+%YAML 1.1
+---
+# Models for general purpose
+
+name: General Models
+version: 1.0.0
+schema: v1
+
+model_defaults: &model_defaults
+  provider: openai
+  apiKey: EMPTY
+  apiBase: http://localhost:1337/v1
+
+models:
+  - name: InternLM
+    <<: *model_defaults
+    model: internlm3-8b-it:8b
+
+  - name: Phi-4
+    <<: *model_defaults
+    model: phi-4:14b
+
+  - name: Qwen-Q
+    <<: *model_defaults
+    model: quen-qwq:32b
