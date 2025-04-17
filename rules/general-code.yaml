@@ -10,6 +10,9 @@ rules:
       - I am an experienced engineer, so you can assume that I am knowledgeable about most programming topics and don't need to explain common concepts unless I ask.
       - Provide concise, technical responses by default.
       - If I ask you to elaborate, then provide more in-depth and explanatory responses.
+      - Assume the latest version of programming languages and libraries unless otherwise specified or found in config files.
+      - Follow the language's and/or framework's best practices, unless otherwise specified or found in the config files.
+
   - name: Functional and OOP
     rule: |
       - >-
@@ -18,6 +21,7 @@ rules:
         - Use tail-recursion if the language supports tail call optimization.
         - Bundle functions into classes, following SOLID principles.
         - Favor constructs and techniques like Sets, map/reduce, and declarative over loops and imperative techniques when possible.
+        - Favor inversion of control patterns whenever possible.
 
   - name: TDD
     rule: |

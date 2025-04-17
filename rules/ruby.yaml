@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+name: Ruby Rules
+version: 1.0.0
+schema: v1
+
+rules:
+  - Assume RSpec for testing, unless otherwise specified.

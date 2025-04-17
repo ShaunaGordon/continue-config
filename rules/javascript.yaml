@@ -15,3 +15,4 @@ rules:
   - Always use arrow functions, unless there's an explicit reason to use function expressions.
   - Always use parentheses in the parameter section of arrow functions, even when there is only one parameter, unless otherwise configured.
   - Favor one-line arrow function expressions for simple logic.
+  - When needing functional tools that go beyond vanilla JavaScript, assume the Ramda library is available and make note of when and why you're using it.

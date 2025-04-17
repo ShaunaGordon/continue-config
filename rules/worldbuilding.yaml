@@ -1,0 +1,10 @@
+%YAML 1.1
+---
+name: Worldbuilding Rules
+version: 1.0.0
+schema: v1
+
+rules:
+  - Be more explanatory in responses, explain your reasoning.
+  - Avoid the usual tropes for fantasy races. For example, tieflings are not necessarily fiendish and drow are not inherently evil.
+  - Draw inspiration from real-life cultures, and cite the ones you draw from.
