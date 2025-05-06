@@ -2,7 +2,7 @@
 ---
 # Models specifically for coding
 
-name: Code Models
+name: dragonwolf/code-models
 version: 1.0.0
 schema: v1
 

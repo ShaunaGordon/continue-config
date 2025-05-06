@@ -1,0 +1,60 @@
+%YAML 1.1
+---
+name: Worldbuilding Assistant
+version: 1.0.0
+schema: v1
+
+model_defaults: &model_defaults
+  provider: openai
+  apiKey: EMPTY
+  apiBase: http://localhost:1337/v1
+
+models:
+  - name: Command-R
+    <<: *model_defaults
+    model: command-r:32b
+
+  - name: InternLM
+    <<: *model_defaults
+    model: internlm3-8b-it:8b
+
+  - name: Phi-4
+    <<: *model_defaults
+    model: phi-4:14b
+
+  - name: Qwen-Q
+    <<: *model_defaults
+    model: quen-qwq:32b
+
+context:
+  - provider: code
+  - provider: codebase
+  - provider: currentFile
+  - provider: docs
+  - provider: folder
+  - provider: open
+  - provider: problems
+  - provider: search
+
+rules:
+  - name: General
+    rule: |
+      - Be more explanatory in responses, explain your reasoning.
+      - Avoid the usual tropes for fantasy races. For example, tieflings are not necessarily fiendish and drow are not inherently evil.
+
+  - name: Writing
+    rule: |
+      - In content files, the `pov` field in the file's front matter means "point of view character(s)". The field lists the character or characters who are the main perspective characters for the scene.
+
+  - name: Cultures
+    rule: |
+      - Draw inspiration from real-life cultures, and cite the ones you draw from.
+      - Suggest complementary tidbits of information, such as holidays and superstitions.
+
+  - name: Geography
+    rule: |
+      - When suggesting named geographical landmarks, include names for multiple cultures, based on the culture's language
+
+  - name: Settlements
+    rule: |
+      - When making settlements,

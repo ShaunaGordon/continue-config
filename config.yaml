@@ -4,47 +4,6 @@ name: Local Assistant
 version: 1.0.0
 schema: v1
 
-model_defaults: &model_defaults
-  provider: openai
-  apiKey: EMPTY
-  apiBase: http://localhost:1337/v1
-
-models:
-  - name: Cogito
-    <<: *model_defaults
-    model: cogito-v1:14b
-
-  - name: Qwen Coder
-    <<: *model_defaults
-    model: qwen2.5-coder:14b
-
-  - name: Codestral
-    <<: *model_defaults
-    model: codestral:22b
-
-context:
-  - provider: code
-  - provider: codebase
-  - provider: currentFile
-  - provider: diff
-  - provider: docs
-  - provider: folder
-  - provider: open
-  - provider: problems
-  - provider: search
-  - provider: terminal
-
 rules:
-  - Whenever you are providing answers for programming, provide concise answers. You can assume I am knowledgeable about most programming topics and don't need to explain obvious concepts unless I ask.
-  - Whenever you are writing any Javascript code, make sure to
-    - always use module format
-    - end lines with semicolons
-    - only use TypeScript if I ask you to, assume JavaScript otherwise
-  - Whenever you are writing React code, make sure to
-    - use functional components instead of class components
-    - use hooks for state management
-    - define an interface for your component props if using Typescript
-    - modularize components into smaller, reusable pieces
-  - Whenever you are writing Vue code, make sure to
-    - follow Vue3 best practices
-    - modularize components into smaller, reusable pieces
+  - Unless otherwise specified, assume I have foundational knowledge of the subject in question.
+  - Provide concise answers, unless I ask for a more detailed explanation.

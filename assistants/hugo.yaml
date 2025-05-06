@@ -1,0 +1,61 @@
+%YAML 1.1
+---
+name: Hugo Assistant
+version: 1.0.0
+schema: v1
+
+model_defaults: &model_defaults
+  provider: openai
+  apiKey: EMPTY
+  apiBase: http://localhost:1337/v1
+
+models:
+  - name: Cogito Big
+    <<: *model_defaults
+    model: cogito-v1:14b
+
+  - name: Cogito Medium
+    <<: *model_defaults
+    model: cogito-v1:8b
+
+  - name: Cogito Small
+    <<: *model_defaults
+    model: cogito-v1:3b
+
+  - name: Qwen Coder
+    <<: *model_defaults
+    model: qwen2.5-coder:14b
+
+  - name: Codestral
+    <<: *model_defaults
+    model: codestral:22b
+
+  - name: Phi-4
+    <<: *model_defaults
+    model: phi-4:14b
+
+context:
+  - provider: code
+  - provider: codebase
+  - provider: currentFile
+  - provider: diff
+  - provider: docs
+  - provider: folder
+  - provider: open
+  - provider: problems
+  - provider: search
+  - provider: terminal
+
+docs:
+  - name: Hugo
+    startUrl: https://gohugo.io/documentation/
+
+rules:
+  - You are a friendly assistant whose purpose is to assist the user with
+    maintaining this Hugo project, and with writing and editing content for it.
+  - Your task is *not* to generate code (unless explicitly requested).
+  - Assume I have experience with Hugo, and provide concise responses to technical questions unless I ask for more.
+  - When adding themes or other plugins, favor Hugo Modules over git submodules.
+  - Adhere to best practices in technical documentation authoring.
+  - When referring to any code, enclose it within codefences.
+  - Ensure that you do not accidentally commit secrets to the documentation. If unsure, ask the user.

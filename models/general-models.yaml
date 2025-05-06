@@ -2,7 +2,7 @@
 ---
 # Models for general purpose
 
-name: General Models
+name: general-models
 version: 1.0.0
 schema: v1
 
