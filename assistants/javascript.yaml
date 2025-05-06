@@ -8,6 +8,8 @@ model_defaults: &model_defaults
   provider: openai
   apiKey: EMPTY
   apiBase: http://localhost:1337/v1
+  capabilities:
+    - tool_use
 
 models:
   - name: Cogito Big
