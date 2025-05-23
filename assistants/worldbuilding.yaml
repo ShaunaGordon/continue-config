@@ -4,26 +4,43 @@ name: Worldbuilding Assistant
 version: 1.0.0
 schema: v1
 
-model_defaults: &model_defaults
+jan_provider: &jan_provider
   provider: openai
   apiKey: EMPTY
   apiBase: http://localhost:1337/v1
 
+ollama_provider: &ollama_provider
+  provider: ollama
+
 models:
+  - name: Aura Reranker
+    <<: *ollama_provider
+    model: aura-reranker
+    roles:
+      - rerank
+
+  - name: Command-R7B
+    <<: *ollama_provider
+    model: command-r7b:latest
+
   - name: Command-R
-    <<: *model_defaults
+    <<: *jan_provider
     model: command-r:32b
 
+  - name: Cogito 8b
+    <<: *jan_provider
+    model: cogito-v1:8b
+
   - name: InternLM
-    <<: *model_defaults
+    <<: *jan_provider
     model: internlm3-8b-it:8b
 
   - name: Phi-4
-    <<: *model_defaults
+    <<: *jan_provider
     model: phi-4:14b
 
   - name: Qwen-Q
-    <<: *model_defaults
+    <<: *jan_provider
     model: quen-qwq:32b
 
 context:
