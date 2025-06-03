@@ -13,21 +13,18 @@ ollama_provider: &ollama_provider
   provider: ollama
 
 models:
-  - name: Aura Reranker
-    <<: *ollama_provider
-    model: aura-reranker
-    roles:
-      - rerank
+  # - name: Aura Reranker
+  #   <<: *ollama_provider
+  #   model: aura-reranker
+  #   roles:
+  #     - rerank
 
-  - name: Command-R7B
+
+  - name: Text Analysis
     <<: *ollama_provider
     model: command-r7b:latest
 
-  - name: Command-R
-    <<: *jan_provider
-    model: command-r:32b
-
-  - name: Cogito 8b
+  - name: Brainstorming
     <<: *jan_provider
     model: cogito-v1:8b
 
@@ -52,6 +49,7 @@ context:
   - provider: open
   - provider: problems
   - provider: search
+  - provider: clipboard
 
 rules:
   - name: General
