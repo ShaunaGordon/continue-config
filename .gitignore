@@ -10,6 +10,8 @@
 !context/**/*
 !docs/
 !docs/**/*
+!mcpServers/
+!mcpServers/**/*
 !models/
 !models/**/*
 !prompts/
