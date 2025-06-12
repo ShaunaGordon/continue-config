@@ -25,8 +25,8 @@ models:
     model: command-r7b:latest
 
   - name: Brainstorming
-    <<: *jan_provider
-    model: cogito-v1:8b
+    <<: *ollama_provider
+    model: cogito:8b
 
   - name: InternLM
     <<: *jan_provider

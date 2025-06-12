@@ -24,24 +24,12 @@ models:
     model: command-r7b:latest
 
   - name: Command-R
-    <<: *jan_provider
-    model: command-r:32b
+    <<: *ollama_provider
+    model: command-r:latest
 
   - name: Cogito 8b
-    <<: *jan_provider
+    <<: *ollama_provider
     model: cogito-v1:8b
-
-  - name: InternLM
-    <<: *jan_provider
-    model: internlm3-8b-it:8b
-
-  - name: Phi-4
-    <<: *jan_provider
-    model: phi-4:14b
-
-  - name: Qwen-Q
-    <<: *jan_provider
-    model: quen-qwq:32b
 
 context:
   - provider: code

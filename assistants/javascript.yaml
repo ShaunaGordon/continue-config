@@ -14,8 +14,8 @@ ollama_provider: &ollama_provider
 
 models:
   - name: Cogito Big
-    <<: *jan_provider
-    model: cogito-v1:14b
+    <<: *ollama_provider
+    model: cogito:14b
 
   - name: Cogito Medium
     <<: *ollama_provider
