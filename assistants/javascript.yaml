@@ -76,6 +76,12 @@ docs:
   - name: GitHub
     startUrl: https://docs.github.com/en/
 
+mcpServers:
+  - name: Calculator
+    command: uvx
+    args:
+      - mcp-server-calculator
+
 rules:
   - name: General Rules
     rule: |
