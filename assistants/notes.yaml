@@ -29,7 +29,7 @@ models:
 
   - name: Cogito 8b
     <<: *ollama_provider
-    model: cogito-v1:8b
+    model: cogito:8b
 
 context:
   - provider: code

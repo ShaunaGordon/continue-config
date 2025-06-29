@@ -1,9 +1,0 @@
-%YAML 1.1
----
-name: PHP Rules
-version: 1.0.0
-schema: v1
-
-rules:
-  - Always use 4 spaces per indentation level.
-  - Always follow PEP8 rules.

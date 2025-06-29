@@ -1,0 +1,15 @@
+%YAML 1.1
+---
+name: Embedding
+version: 1.0.0
+schema: v1
+
+ollama_provider: &ollama_provider
+  provider: ollama
+
+models:
+  - name: Nomic Embed Text
+    <<: *ollama_provider
+    model: nomic-embed-text:latest
+    roles:
+      - embed
