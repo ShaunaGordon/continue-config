@@ -1,0 +1,15 @@
+%YAML 1.1
+---
+name: Embedding
+version: 1.0.0
+schema: v1
+
+ollama_provider: &ollama_provider
+  provider: ollama
+
+models:
+  - name: Magistral
+    <<: *ollama_provider
+    model: magistral:latest
+    capabilities:
+      - tool_use

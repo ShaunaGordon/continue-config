@@ -27,18 +27,6 @@ models:
     <<: *ollama_provider
     model: cogito:3b
 
-  - name: Qwen Coder
-    <<: *jan_provider
-    model: qwen2.5-coder-14b-instruct
-
-  - name: Codestral
-    <<: *jan_provider
-    model: codestral:22b
-
-  - name: Devstral
-    <<: *ollama_provider
-    model: devstral:latest
-
   - name: Qwen 3 14b
     <<: *ollama_provider
     model: qwen3:14b
