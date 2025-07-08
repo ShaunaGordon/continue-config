@@ -1,6 +1,6 @@
 ---
 name: Coding Standards
-globs: src/**/*
+globs: {src*}/**/*
 alwaysApply: false
 description: Standards for writing and maintaining code in general
 ---
@@ -14,6 +14,8 @@ description: Standards for writing and maintaining code in general
 - If I ask you to elaborate, then provide more in-depth and explanatory responses.
 - Assume the latest version of programming languages and libraries unless otherwise specified or found in config files.
 - Follow the language's and/or framework's best practices, unless otherwise specified or found in the config files.
+- Additional libraries can be suggested, but always ask before adding them to code suggestions. Otherwise, only work with what libraries or dependencies are already present in the project.
+- Always check the README.md file or any `docs/` folder for contextual information about the project.
 
 ## Functional and OOP
 

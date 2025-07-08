@@ -30,7 +30,7 @@ models:
     model: qwen2.5-coder:14b
 
   - name: Codestral
-    <<: *jan_provider
+    <<: *ollama_provider
     model: codestral:22b
 
   - name: Phi-4

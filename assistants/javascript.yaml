@@ -4,29 +4,12 @@ name: JavaScript Assistant
 version: 1.0.0
 schema: v1
 
-jan_provider: &jan_provider
-  provider: openai
-  apiKey: EMPTY
-  apiBase: http://localhost:1337/v1
-
 ollama_provider: &ollama_provider
   provider: ollama
   capbilities:
     - tool_use
 
 models:
-  - name: Cogito Big
-    <<: *ollama_provider
-    model: cogito:14b
-
-  - name: Cogito Medium
-    <<: *ollama_provider
-    model: cogito:8b
-
-  - name: Cogito Small
-    <<: *ollama_provider
-    model: cogito:3b
-
   - name: Qwen 3 14b
     <<: *ollama_provider
     model: qwen3:14b
@@ -60,9 +43,15 @@ docs:
   - name: React Testing Library Docs
     startUrl: https://testing-library.com/docs/react-testing-library/intro/
 
-  - name: Vue docs
+  - name: Vue
     startUrl: https://vuejs.org/guide/
     rootUrl: https://vuejs.org/guide/
+
+  - name: Vue Router
+    startUrl: https://router.vuejs.org/guide/
+
+  - name: Vitest
+    startUrl: https://vitest.dev/guide/
 
   - name: Pinia
     startUrl: https://pinia.vuejs.org/

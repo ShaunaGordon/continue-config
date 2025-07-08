@@ -1,0 +1,15 @@
+%YAML 1.1
+---
+name: Cogito Medium
+version: 1.0.0
+schema: v1
+
+ollama_provider: &ollama_provider
+  provider: ollama
+  capbilities:
+    - tool_use
+
+models:
+  - name: Cogito Medium
+    <<: *ollama_provider
+    model: cogito:8b

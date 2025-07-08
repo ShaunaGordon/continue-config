@@ -1,15 +1,15 @@
 %YAML 1.1
 ---
-name: Embedding
+name: Cogito Small
 version: 1.0.0
 schema: v1
 
 ollama_provider: &ollama_provider
   provider: ollama
+  capbilities:
+    - tool_use
 
 models:
-  - name: Magistral
+  - name: Cogito Small
     <<: *ollama_provider
-    model: magistral:latest
-    capabilities:
-      - tool_use
+    model: cogito:3b
