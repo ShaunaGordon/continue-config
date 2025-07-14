@@ -1,3 +1,3 @@
 # Continue.dev Config
 
-This if my local assistant
+This is my local assistant config for Continue.dev.
