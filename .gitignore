@@ -3,6 +3,7 @@
 !.gitignore
 !config.yaml
 !setup.sh
+!README.md
 
 !assistants/
 !assistants/**/*

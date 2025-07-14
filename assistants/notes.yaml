@@ -4,32 +4,13 @@ name: Notes Assistant
 version: 1.0.0
 schema: v1
 
-jan_provider: &jan_provider
-  provider: openai
-  apiKey: EMPTY
-  apiBase: http://localhost:1337/v1
-
 ollama_provider: &ollama_provider
   provider: ollama
 
 models:
-  # - name: Aura Reranker
-  #   <<: *ollama_provider
-  #   model: aura-reranker
-  #   roles:
-  #     - rerank
-
-  - name: Command-R7B
-    <<: *ollama_provider
-    model: command-r7b:latest
-
   - name: Command-R
     <<: *ollama_provider
     model: command-r:latest
-
-  - name: Cogito 8b
-    <<: *ollama_provider
-    model: cogito:8b
 
 context:
   - provider: code
@@ -54,3 +35,7 @@ prompts:
     prompt: |
       @codebase @currentFile Analyze the current file and suggest tags for it.
       Look for tags in other files that potentially match and suggest them, so that files can be linked together.
+
+docs:
+  - name: Foam
+    startUrl: https://foambubble.github.io/foam/

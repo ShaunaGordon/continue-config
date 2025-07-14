@@ -4,39 +4,6 @@ name: Hugo Assistant
 version: 1.0.0
 schema: v1
 
-jan_provider: &jan_provider
-  provider: openai
-  apiKey: EMPTY
-  apiBase: http://localhost:1337/v1
-
-ollama_provider: &ollama_provider
-  provider: ollama
-
-models:
-  - name: Cogito Big
-    <<: *ollama_provider
-    model: cogito:14b
-
-  - name: Cogito Medium
-    <<: *ollama_provider
-    model: cogito:8b
-
-  - name: Cogito Small
-    <<: *ollama_provider
-    model: cogito:3b
-
-  - name: Qwen Coder
-    <<: *jan_provider
-    model: qwen2.5-coder:14b
-
-  - name: Codestral
-    <<: *ollama_provider
-    model: codestral:22b
-
-  - name: Phi-4
-    <<: *jan_provider
-    model: phi-4:14b
-
 context:
   - provider: code
   - provider: codebase

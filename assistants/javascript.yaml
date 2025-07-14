@@ -67,9 +67,3 @@ docs:
 
   - name: Typescript
     startUrl: https://www.typescriptlang.org/docs/
-
-mcpServers:
-  - name: Calculator
-    command: uvx
-    args:
-      - mcp-server-calculator
