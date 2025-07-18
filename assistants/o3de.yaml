@@ -1,0 +1,37 @@
+%YAML 1.1
+---
+name: O3DE Assistant
+version: 1.0.0
+schema: v1
+
+ollama_provider: &ollama_provider
+  provider: ollama
+  capbilities:
+    - tool_use
+
+models:
+  - name: Qwen 3 14b
+    <<: *ollama_provider
+    model: qwen3:14b
+
+context:
+  - provider: code
+  - provider: codebase
+  - provider: currentFile
+  - provider: diff
+  - provider: docs
+  - provider: folder
+  - provider: open
+  - provider: problems
+  - provider: search
+  - provider: terminal
+
+docs:
+  - name: Qt
+    startUrl: https://doc.qt.io/
+
+  - name: O3DE
+    startUrl: https://docs.o3de.org/
+
+  - name: MS C++
+    startUrl: https://learn.microsoft.com/en-us/cpp/cpp/

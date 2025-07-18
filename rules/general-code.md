@@ -1,6 +1,6 @@
 ---
 name: Coding Standards
-globs: {src*}/**/*
+globs: src*/**/*
 alwaysApply: false
 description: Standards for writing and maintaining code in general
 ---

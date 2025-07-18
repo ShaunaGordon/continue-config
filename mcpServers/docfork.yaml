@@ -1,0 +1,9 @@
+name: Docfork MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Docfork
+    command: npx
+    args:
+      - docfork@latest
