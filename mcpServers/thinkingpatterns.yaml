@@ -1,9 +1,9 @@
-name: Memory MCP
+name: Thinking MCP
 version: 1.0.0
 schema: v1
 
 mcpServers:
-  - name: Memory
+  - name: Thinking
     command: npx
     args:
       - "-y"

@@ -1,0 +1,14 @@
+name: Cognee MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: cognee
+    command: uv
+    args:
+      - --directory
+      - ~/cognee/cognee-mcp
+      - run
+      - cognee
+    env:
+      TOKENIZERS_PARALLELISM: "false"
