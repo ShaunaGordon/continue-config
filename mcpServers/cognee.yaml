@@ -7,9 +7,9 @@ mcpServers:
     command: uv
     args:
       - --directory
-      - ~/cognee/
+      - ~/cognee/cognee-mcp/script
       - run
-      - cognee
+      -
     env:
       TOKENIZERS_PARALLELISM: "false"
       LLM_API_KEY: ollama
