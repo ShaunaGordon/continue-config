@@ -12,3 +12,11 @@ mcpServers:
       - cognee
     env:
       TOKENIZERS_PARALLELISM: "false"
+      LLM_API_KEY: "ollama"
+      LLM_MODEL: "llama3.1:8b"
+      #LLM_PROVIDER="ollama"
+      #LLM_ENDPOINT="http://localhost:11434/v1"
+      #EMBEDDING_PROVIDER="ollama"
+      #EMBEDDING_MODEL="avr/sfr-embedding-mistral:latest"
+      #EMBEDDING_ENDPOINT="http://localhost:11434/api/embeddings"
+      #EMBEDDING_DIMENSIONS=4096
