@@ -9,7 +9,7 @@ mcpServers:
       - --directory
       - ~/cognee/cognee-mcp/src
       - run
-      -
+      - server.py
     env:
       TOKENIZERS_PARALLELISM: "false"
       LLM_API_KEY: ollama
