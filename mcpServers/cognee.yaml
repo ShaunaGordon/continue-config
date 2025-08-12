@@ -11,8 +11,8 @@ mcpServers:
       - run
       - cognee
     env:
-      TOKENIZERS_PARALLELISM: false
-      # LLM_API_KEY: ollama
+      # TOKENIZERS_PARALLELISM: false
+      LLM_API_KEY: ollama
       # LLM_MODEL: cogito:8b
       # LLM_PROVIDER: ollama
       # LLM_ENDPOINT: http://localhost:11434/v1
