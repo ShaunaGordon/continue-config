@@ -7,7 +7,7 @@ mcpServers:
     command: uv
     args:
       - --directory
-      - ~/cognee/cognee-mcp
+      - "~/cognee/cognee-mcp"
       - run
       - cognee
     env:
