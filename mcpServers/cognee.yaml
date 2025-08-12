@@ -19,4 +19,4 @@ mcpServers:
       EMBEDDING_PROVIDER: ollama
       EMBEDDING_MODEL: nomic-embed-text:latest
       EMBEDDING_ENDPOINT: http://localhost:11434/api/embeddings
-      # EMBEDDING_DIMENSIONS: 4096
+      EMBEDDING_DIMENSIONS: 4096
