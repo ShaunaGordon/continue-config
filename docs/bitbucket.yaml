@@ -1,0 +1,9 @@
+%YAML 1.1
+---
+name: Bitbucket Docs
+version: 1.0.0
+schema: v1
+
+docs:
+  - name: Bitbucket
+    startUrl: https://support.atlassian.com/bitbucket-cloud/resources/

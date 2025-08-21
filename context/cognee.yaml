@@ -1,0 +1,11 @@
+name: Cognee Context Provider
+version: 1.0.0
+schema: v1
+
+context:
+  - provider: http
+    params:
+      url: http://localhost:8000/api/v1/code-pipeline/retrieve
+      title: cognee
+      description: Cognee code context retrieval
+      displayTitle: cognee

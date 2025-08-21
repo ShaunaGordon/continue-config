@@ -13,6 +13,9 @@ models:
   - name: Qwen 3 14b
     <<: *ollama_provider
     model: qwen3:14b
+  - name: Qwen 3 8b
+    <<: *ollama_provider
+    model: qwen3:8b
 
 context:
   - provider: code

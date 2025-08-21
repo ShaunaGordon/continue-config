@@ -7,11 +7,10 @@ mcpServers:
     command: uv
     args:
       - --directory
-      - ~/cognee/cognee-mcp/src
+      - ~/cognee/cognee-mcp
       - run
-      - server.py
+      - cognee
     env:
-      TOKENIZERS_PARALLELISM: "false"
       LLM_API_KEY: ollama
       LLM_MODEL: cogito:8b
       LLM_PROVIDER: ollama

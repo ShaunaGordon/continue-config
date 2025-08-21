@@ -20,6 +20,9 @@ docs:
   - name: Hugo
     startUrl: https://gohugo.io/documentation/
 
+  - name: Bitbucket
+    startUrl: https://support.atlassian.com/bitbucket-cloud/resources/
+
 rules:
   - You are a friendly assistant whose purpose is to assist the user with
     maintaining this Hugo project, and with writing and editing content for it.
