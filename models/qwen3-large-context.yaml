@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
-name: Cogito Small
+name: Qwen3 Large Context
 version: 1.0.0
 schema: v1
 
@@ -10,8 +10,6 @@ ollama_provider: &ollama_provider
     - tool_use
 
 models:
-  - name: Cogito Small
+  - name: Qwen 3 30b
     <<: *ollama_provider
-    model: cogito:3b
-    roles:
-      - autocomplete
+    model: qwen3:30b
