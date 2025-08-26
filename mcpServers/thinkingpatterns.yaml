@@ -1,9 +1,9 @@
-name: Thinking MCP
+name: Thinking Patterns MCP
 version: 1.0.0
 schema: v1
 
 mcpServers:
-  - name: Thinking
+  - name: Thinking Patterns
     command: npx
     args:
       - "-y"
