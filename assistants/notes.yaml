@@ -4,14 +4,6 @@ name: Notes Assistant
 version: 1.0.0
 schema: v1
 
-ollama_provider: &ollama_provider
-  provider: ollama
-
-models:
-  - name: Command-R
-    <<: *ollama_provider
-    model: command-r:latest
-
 context:
   - provider: code
   - provider: codebase

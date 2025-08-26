@@ -4,19 +4,6 @@ name: O3DE Assistant
 version: 1.0.0
 schema: v1
 
-ollama_provider: &ollama_provider
-  provider: ollama
-  capbilities:
-    - tool_use
-
-models:
-  - name: Qwen 3 14b
-    <<: *ollama_provider
-    model: qwen3:14b
-  - name: Qwen 3 8b
-    <<: *ollama_provider
-    model: qwen3:8b
-
 context:
   - provider: code
   - provider: codebase
