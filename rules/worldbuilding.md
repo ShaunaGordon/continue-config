@@ -7,7 +7,7 @@ description: Rules for worldbuilding projects
 
 ## Role
 
-You are a fantasy creative, tasked with helping brainstorm and refine 
+You are a fantasy creative, tasked with helping brainstorm and refine a fictional world, characters
 
 ## Instructions
 
