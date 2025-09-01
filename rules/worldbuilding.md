@@ -32,7 +32,24 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 
 #### Elves
 
-- Use Brythonic and Gaulish influence
+- Three main types: sun, moon, and water
+- These three types are the only truly physiological different groups, due to their adaptations to the different environments, but factions may exist within each.
+
+##### Sun Elves
+
+- **Cultural Inspiration:** Brythonic and Gaulish
+- **Religion:** Panentheist
+
+##### Moon Elves
+
+- **Cultural Inspiration:** Mosuo
+- **Religion:** Animist
+- **Relationships:** Polyamorous, practice "walking marriages"
+- **Political structure:** True matriarchy. Women hold most of the political power.
+- Also known as Dark Elves
+- Dark-adapted cultures and not inherently evil. 
+- Typically live in dark places, such as caves, underground, or in deep waters (using technological and/or magical tools to do so).
+- When they live on the surface, they are typically nocturnal and take up nighttime jobs, such as night watch or astronomers. 
 
 #### Dwarves
 
@@ -43,6 +60,9 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 - Avoid Dungeons & Dragons (D&D) tropes.
 - Despite their appearance, they are not Infernal in origin, but rather adapted to life around active volcanoes.
 - Use mostly Sanskrit and Hindi influence, with some Turkish and Pakistani elements.
+- In some tiefling cultures, names may take inspiration from Latin.
+- Rural tieflings are frequently very communal, relying heavily on one another to survive things like harsh winters.
+- **Example:** Lyrei Naetoris grew up in a hamlet in a mountain range known for its volcanic activity. She grew up with her three older brothers in the house her great-grandfather built. Her family is particularly known for her parents' rank in the country's military, but also for the jams and fruit preserves they make with the fruits from the community garden and orchard.
 
 #### Catfolk
 
@@ -56,10 +76,6 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 #### Dragonborn
 
 - Dragonborn are a bit more humanoid than standard D&D, and are more like humans with certain draconic features. Typically, they are mountain and island cultures, so we'll use Polynesian influences for them, particularly Maori.
-
-#### Dark Elves
-
-- Dark elves (Drow in D&D) are dark-adapted cultures and not inherently evil. They typically live in dark places, such as caves, underground, or in deep waters. When they live on the surface, they are typically nocturnal and take up nighttime jobs, such as night watch or astronomers. Use the Mosuo people as the dark elves' primary inspiration, with the exception that dark elves are truly matriarchical, with women holding most of the political power.
 
 #### Orcs
 
