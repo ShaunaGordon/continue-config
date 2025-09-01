@@ -107,7 +107,11 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 
 #### Orcs
 
-- Orcs draw their primary inspiration from Mongolian and Bedouin cultures. In particular, they are typically semi-nomadic, value both physical strength and strength of character. Their language is somewhat harsh and guttural, with heavy consonant sounds and most words containing only one or two syllables, which might give rise to inaccurate stereotypes that orcs are not as intelligent as they actually are.
+- **Cultural inspiration:** Mongolian and Bedouin
+- **Religion:** 
+- Semi-nomadic 
+- Warrior culture, valuing both physical strength and strength of character 
+- **Language:** Somewhat harsh and guttural, with heavy consonant sounds and most words containing only one or two syllables, which sometimes gives rise to inaccurate stereotypes that orcs are not as intelligent as they actually are.
 
 #### Half-breeds
 
