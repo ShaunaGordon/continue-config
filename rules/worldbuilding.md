@@ -32,6 +32,7 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 
 #### Elves
 
+- **Average lifespan:** up to 1000
 - Three main types: sun, moon, and water
 - These three types are the only truly physiological different groups, due to their adaptations to the different environments, but factions may exist within each.
 
@@ -41,21 +42,28 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 - **Religion:** Panentheist
 - **Relationships:** Usually monogamous, cohabitating
 - **Socio-political structure:** Egalitarian. Political power is determined primarily by skill or aptitude.
-- **Average lifespan:** up to 1000
-- Also known as Light Elves or Land Elves
+- **Political structure:** Typically democratic or representative.
+- Also known as Light Elves, Land Elves, or Forest Elves
 - Typically live in cities, with architecture in harmony with nature, often growing trees and other plants into living houses.
 
 ##### Moon Elves
 
 - **Cultural Inspiration:** Mosuo
 - **Religion:** Animist
-- **Relationships:** Polyamorous, practice "walking marriages"
+- **Relationships:** Open polyamorous (aka "relationship anarchy"), practice "walking marriages"
 - **Socio-political structure:** True matriarchy. Women hold most of the political power.
 - **Political structure:** Typically monarchies or constitutional monarchies, with queen as supreme ruler
 - Also known as Dark Elves
 - Dark-adapted cultures, not inherently evil. 
 - Typically live in dark places, such as caves, underground, or in deep waters (using technological and/or magical tools to do so).
-- When they live on the surface, they are typically nocturnal and take up nighttime jobs, such as night watch or astronomers. 
+- Individuals living on the surface are typically nocturnal and take up nighttime jobs, such as night watch or astronomy.
+
+##### Water Elves
+
+- **Religion:** Pantheist
+- **Relationships:** Polyamorous (typically small polycules up to 6), cohabitating
+- **Socio-political structure:** Matrilineal/patriarchical. Men hold most of the political power, but women hold the household power and inheritance goes through them
+- **Political structure:** Absolute monarchy, supreme ruler nearly always a king
 
 #### Dwarves
 
