@@ -36,6 +36,7 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 - For tieflings, we're going more original than their Dungeons & Dragons (D&D) origin. Despite their appearance, they're not Infernal in origin, but rather a race adapted to mountain life, particularly around active volcanoes. For them, we'll use mostly Sanskrit and Hindi influence, with some Turkish and Pakistani elements.
 - Catfolk are as diverse as regular felines, so their cultural influences would be based on the type they're modeled after. For example, a pride of equatorial plains-dwelling lionfolk might take inspiration from indigenous and historical peoples of central Africa.
 - Halflings, gnomes, pixies, brownies, and other such groups can be collectively referred to as "Smallfolk," though the specific groups within remain.
+- Dragonborn are a bit more humanoid than standard D&D, and are more like humans with certain draconic features. Typically, they are mountain and island cultures, so we'll use Polynesian influences for them, particularly Maori.
 
 ### Geography
 
