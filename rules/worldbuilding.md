@@ -100,7 +100,7 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 #### Dragonborn
 
 - **Cultural inspiration:** Polynesian, especially Maori
-- **Religion:** Polytheist
+- **Religion:** Henotheist
 <!-- - **Socio-political structure:**
 - **Political structure:** -->
 - More like humans with certain draconic features such as dragon horns and tail, as opposed to wingless, tailless, bipedal dragons
