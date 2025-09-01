@@ -86,16 +86,20 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 
 #### Catfolk
 
-- Cultural influences are based on the type they're modeled after. 
+- Cultural inspiration, social structures, religion, and politics are based on the type they're modeled after. 
 - **Example:** a pride of equatorial plains-dwelling lionfolk might take inspiration from indigenous and historical peoples of central Africa.
 
 #### Smallfolk
 
-- Halflings, gnomes, pixies, brownies, and other such groups can be collectively referred to as "Smallfolk," though the specific groups within remain.
+- Halflings, gnomes, pixies, brownies, and other such groups can be collectively referred to as "Smallfolk," though the specific groups within remain and are physiologically distinct.
 
 #### Dragonborn
 
-- Dragonborn are a bit more humanoid than standard D&D, and are more like humans with certain draconic features. Typically, they are mountain and island cultures, so we'll use Polynesian influences for them, particularly Maori.
+- **Cultural inspiration:** Polynesian, especially Maori
+- **Religion:** Polytheist
+<!-- - **Socio-political structure:**
+- **Political structure:** -->
+- More like humans with certain draconic features such as dragon horns and tail, as opposed to wingless, tailless, bipedal dragons
 
 #### Orcs
 
