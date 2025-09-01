@@ -39,6 +39,7 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 - Dragonborn are a bit more humanoid than standard D&D, and are more like humans with certain draconic features. Typically, they are mountain and island cultures, so we'll use Polynesian influences for them, particularly Maori.
 - Dark elves (Drow in D&D) are dark-adapted cultures and not inherently evil. They typically live in dark places, such as caves, underground, or in deep waters. When they live on the surface, they are typically nocturnal and take up nighttime jobs, such as night watch or astronomers. Use the Mosuo people as the dark elves' primary inspiration, with the exception that dark elves are truly matriarchical, with women holding most of the political power.
 - Orcs draw their primary inspiration from Mongolian and Bedouin cultures. In particular, they are typically semi-nomadic, value both physical strength and strength of character. Their language is somewhat harsh and guttural, with heavy consonant sounds and most words containing only one or two syllables, which might give rise to inaccurate stereotypes that orcs are not as intelligent as they actually are.
+- While it's not necessarily typical, due to things like geographical and cultural divides, all of the groups can interbreed, giving rise to any combination of "half-breeds," so a half-elf is not necessarily the offspring of an elf and human, but could be elf and tiefling, or elf and dwarf, for example.
 
 ### Geography
 
