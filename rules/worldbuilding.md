@@ -38,7 +38,7 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 
 ##### Sun Elves
 
-- **Cultural Inspiration:** Brythonic and Gaulish
+- **Cultural inspiration:** Brythonic and Gaulish
 - **Religion:** Panentheist
 - **Relationships:** Usually monogamous, cohabitating
 - **Socio-political structure:** Egalitarian. Political power is determined primarily by skill or aptitude.
@@ -48,7 +48,7 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 
 ##### Moon Elves
 
-- **Cultural Inspiration:** Mosuo
+- **Cultural inspiration:** Mosuo
 - **Religion:** Animist
 - **Relationships:** Open polyamorous (aka "relationship anarchy"), practice "walking marriages"
 - **Socio-political structure:** True matriarchy. Women hold most of the political power.
@@ -57,6 +57,7 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 - Dark-adapted cultures, not inherently evil. 
 - Typically live in dark places, such as caves, underground, or in deep waters (using technological and/or magical tools to do so).
 - Individuals living on the surface are typically nocturnal and take up nighttime jobs, such as night watch or astronomy.
+- Non-surface groups often farm mushrooms, and biolumenescent plants and animals.
 
 ##### Water Elves
 
@@ -64,16 +65,21 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 - **Relationships:** Polyamorous (typically small polycules up to 6), cohabitating
 - **Socio-political structure:** Matrilineal/patriarchical. Men hold most of the political power, but women hold the household power and inheritance goes through them
 - **Political structure:** Absolute monarchy, supreme ruler nearly always a king
+- Also known collectively as Aquatic Elves, or individual groups known by the type of water in which they inhabit (Sea Elves, River Elves, etc)
+- Various hazards of underwater living necessitate a near-authoritarian rule
+- Unlike Moon Elves, who live in biodomes when underwater, Water Elves are evolutionarily adapted to water and are amphibious
 
 #### Dwarves
 
-- Use Old Norse and modern Scandinavian influences
+- **Cultural inspiration:** Old Norse and modern Scandinavian influences
 
 #### Tieflings
 
-- Avoid Dungeons & Dragons (D&D) tropes.
+- **Cultural inspiration:** Sanskrit and Hindi, with some Turkish and Pakistani elements
+- **Religion:** Polytheist
+- **Socio-political structure:** Lightly patriarchical, patrilineal
+- **Political structure:** Democratic to true communist
 - Despite their appearance, they are not Infernal in origin, but rather adapted to life around active volcanoes.
-- Use mostly Sanskrit and Hindi influence, with some Turkish and Pakistani elements.
 - In some tiefling cultures, names may take inspiration from Latin.
 - Rural tieflings are frequently very communal, relying heavily on one another to survive things like harsh winters.
 - **Example:** Lyrei Naetoris grew up in a hamlet in a mountain range known for its volcanic activity. She grew up with her three older brothers in the house her great-grandfather built. Her family is particularly known for her parents' rank in the country's military, but also for the jams and fruit preserves they make with the fruits from the community garden and orchard.
