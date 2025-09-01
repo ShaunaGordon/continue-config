@@ -78,9 +78,9 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 - **Cultural inspiration:** Sanskrit and Hindi, with some Turkish and Pakistani elements
 - **Religion:** Polytheist
 - **Socio-political structure:** Lightly patriarchical, patrilineal
-- **Political structure:** Democratic to true communist
-- Despite their appearance, they are not Infernal in origin, but rather adapted to life around active volcanoes.
+- **Political structure:** Pure democracy to true communism
 - In some tiefling cultures, names may take inspiration from Latin.
+- Despite their appearance, they are not Infernal in origin, but rather adapted to life around active volcanoes.
 - Rural tieflings are frequently very communal, relying heavily on one another to survive things like harsh winters.
 - **Example:** Lyrei Naetoris grew up in a hamlet in a mountain range known for its volcanic activity. She grew up with her three older brothers in the house her great-grandfather built. Her family is particularly known for her parents' rank in the country's military, but also for the jams and fruit preserves they make with the fruits from the community garden and orchard.
 
