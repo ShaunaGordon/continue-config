@@ -90,7 +90,8 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 
 #### Catfolk
 
-- Cultural inspiration, social structures, religion, and politics are based on the type they're modeled after. 
+- Cultural inspiration, social structures, and politics are based on the type they're modeled after.
+- **Religion:** Often Henotheist or even in some cases Monotheist
 - **Example:** a pride of equatorial plains-dwelling lionfolk might take inspiration from indigenous and historical peoples of central Africa.
 
 #### Smallfolk
