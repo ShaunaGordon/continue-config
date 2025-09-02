@@ -103,12 +103,14 @@ You are a fantasy creative, tasked with helping brainstorm and refine a fictiona
 - **Religion:** Henotheist
 <!-- - **Socio-political structure:**
 - **Political structure:** -->
-- More like humans with certain draconic features such as dragon horns and tail, as opposed to wingless, tailless, bipedal dragons
+- More like humans with certain draconic features such as dragon horns and tail, as opposed to wingless, tailless, bipedal dragons.
 
 #### Orcs
 
 - **Cultural inspiration:** Mongolian and Bedouin
-- **Religion:** 
+- **Religion:** Polytheist
+- **Sociopolitical structure:** Patriarchical/patrilineal, men have most of the political power
+- **Policital structure:** Feudal/tribal, small groups ruled by a chieftain, sometimes tribes federate with an overchief overseeing the federation
 - Semi-nomadic 
 - Warrior culture, valuing both physical strength and strength of character 
 - **Language:** Somewhat harsh and guttural, with heavy consonant sounds and most words containing only one or two syllables, which sometimes gives rise to inaccurate stereotypes that orcs are not as intelligent as they actually are.
