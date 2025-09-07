@@ -1,0 +1,17 @@
+name: Instinct
+version: 1.0.2
+schema: v1
+models:
+  - name: Instinct
+    provider: ollama
+    model: nate/instinct
+    roles:
+      - autocomplete
+    defaultCompletionOptions:
+      temperature: 0
+      stop:
+        - <|im_end|>
+    autocompleteOptions:
+      useImports: true
+      useRecentlyEdited: true
+      useRecentlyOpened: true

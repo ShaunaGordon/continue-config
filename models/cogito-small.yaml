@@ -15,3 +15,10 @@ models:
     model: cogito:3b
     roles:
       - autocomplete
+      - chat
+    defaultCompletionOptions:
+      temperature: 0
+    autocompleteOptions:
+      useImports: true
+      useRecentlyEdited: true
+      useRecentlyOpened: true

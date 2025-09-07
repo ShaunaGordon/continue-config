@@ -1,0 +1,15 @@
+%YAML 1.1
+---
+name: Qwen-coder
+version: 1.0.0
+schema: v1
+
+ollama_provider: &ollama_provider
+  provider: ollama
+  capbilities:
+    - tool_use
+
+models:
+  - name: Qwen 2.5 Coder
+    <<: *ollama_provider
+    model: qwen2.5-coder:14b
