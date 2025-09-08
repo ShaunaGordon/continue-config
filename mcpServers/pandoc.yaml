@@ -1,0 +1,11 @@
+name: Pandoc MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Pandoc
+    command: uvx
+    args:
+      - "mcp-pandoc"
+
+# https://github.com/vivekVells/mcp-pandoc/blob/main/CHEATSHEET.md

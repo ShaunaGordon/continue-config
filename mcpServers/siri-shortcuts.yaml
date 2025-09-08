@@ -1,0 +1,15 @@
+name: Siri Shortcuts MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Siri Shortcuts
+    command: npx
+    args:
+      - "-y"
+      - "mcp-siri-shortcuts"
+    env:
+      GENERATE_SHORTCUT_TOOLS: true
+      INJECT_SHORTCUT_LIST: false
+
+# https://github.com/dvcrn/mcp-server-siri-shortcuts

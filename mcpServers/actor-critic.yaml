@@ -1,0 +1,10 @@
+name: Actor-Critic MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Actor-Critic Thinking
+    command: npx
+    args:
+      - "-y"
+      - "mcp-server-actor-critic-thinking"

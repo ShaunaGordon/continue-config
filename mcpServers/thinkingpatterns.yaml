@@ -8,3 +8,5 @@ mcpServers:
     args:
       - "-y"
       - "@emmahyde/thinking-patterns"
+
+# https://github.com/emmahyde/thinking-patterns

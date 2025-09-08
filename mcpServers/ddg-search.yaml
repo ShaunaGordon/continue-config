@@ -1,0 +1,9 @@
+name: DuckDuckGo Search MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: DuckDuckGo
+    command: uvx
+    args:
+      - "duckduckgo-mcp-server"
