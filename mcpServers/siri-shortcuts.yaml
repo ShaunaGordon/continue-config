@@ -7,7 +7,7 @@ mcpServers:
     command: npx
     args:
       - "-y"
-      - "mcp-siri-shortcuts"
+      - "mcp-server-siri-shortcuts"
     env:
       GENERATE_SHORTCUT_TOOLS: "true"
       INJECT_SHORTCUT_LIST: "false"
