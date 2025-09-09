@@ -4,6 +4,8 @@ name: CLI Assistant
 version: 1.0.0
 schema: v1
 
+models:
+
 rules:
   - Unless otherwise specified, assume I have foundational knowledge of the subject in question.
   - Provide concise answers, unless I ask for a more detailed explanation.
