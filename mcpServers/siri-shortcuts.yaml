@@ -9,7 +9,7 @@ mcpServers:
       - "-y"
       - "mcp-siri-shortcuts"
     env:
-      GENERATE_SHORTCUT_TOOLS: true
-      INJECT_SHORTCUT_LIST: false
+      GENERATE_SHORTCUT_TOOLS: "true"
+      INJECT_SHORTCUT_LIST: "false"
 
 # https://github.com/dvcrn/mcp-server-siri-shortcuts
