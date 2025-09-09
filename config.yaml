@@ -4,16 +4,19 @@ name: CLI Assistant
 version: 1.0.0
 schema: v1
 
+ollama_provider: &ollama_provider
+  provider: ollama
+  capabilities:
+    - tool_use
+
 models:
   - name: gpt-oss 20b
-    provider: ollama
+    <<: *ollama_provider
     model: gpt-oss:latest
     roles:
       - apply
       - chat
       - edit
-    capabilities:
-      - tool_use
   - name: Nomic Embed Text
     <<: *ollama_provider
     model: nomic-embed-text:latest
