@@ -1,2 +1,10 @@
+name: Ebooks MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Ebooks
+    command: echo "Ebooks coming soon"
+
 # Coming soon, when I decide to set it up
 # https://github.com/onebirdrocks/ebook-mcp

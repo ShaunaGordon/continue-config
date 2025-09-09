@@ -1,2 +1,12 @@
-# Coming soon, once I decide to set it up
-# https://github.com/kandrwmrtn/cplusplus_mcp
+name: C++ Tools MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Cpp Tools
+    command: ${{ secrets.HOME }}/mcp-cpp/target/release/mcp-cpp-server
+    env:
+      CLAND_PATH: /usr/bin/clangd
+
+# https://lobehub.com/mcp/mpsm-mcp-cppp
+# Set HOME in ~/.continue/.env

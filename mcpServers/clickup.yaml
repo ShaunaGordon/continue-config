@@ -1,2 +1,10 @@
+name: Clickup MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Clickup
+    command: echo "Clickup coming soon"
+
 # Coming soon, once I decide to go through the setup
 # https://github.com/TaazKareem/clickup-mcp-server

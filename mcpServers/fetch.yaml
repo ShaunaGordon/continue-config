@@ -1,9 +1,0 @@
-name: Fetch MCP
-version: 1.0.0
-schema: v1
-
-mcpServers:
-  - name: Fetch
-    command: uvx
-    args:
-      - "mcp-server-fetch"
