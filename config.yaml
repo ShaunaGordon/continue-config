@@ -5,6 +5,15 @@ version: 1.0.0
 schema: v1
 
 models:
+  - name: gpt-oss 20b
+    provider: ollama
+    model: gpt-oss:latest
+    roles:
+      - apply
+      - chat
+      - edit
+    capabilities:
+      - tool_use
 
 rules:
   - Unless otherwise specified, assume I have foundational knowledge of the subject in question.
