@@ -8,6 +8,7 @@ models:
     roles:
       - autocomplete
     defaultCompletionOptions:
+      contextLength: 8196
       temperature: 0
       stop:
         - <|im_end|>

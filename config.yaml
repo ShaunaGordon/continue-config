@@ -4,25 +4,6 @@ name: CLI Assistant
 version: 1.0.0
 schema: v1
 
-ollama_provider: &ollama_provider
-  provider: ollama
-  capabilities:
-    - tool_use
-
-models:
-  - name: gpt-oss 20b
-    <<: *ollama_provider
-    model: gpt-oss:latest
-    roles:
-      - apply
-      - chat
-      - edit
-  - name: Nomic Embed Text
-    <<: *ollama_provider
-    model: nomic-embed-text:latest
-    roles:
-      - embed
-
 rules:
   - Unless otherwise specified, assume I have foundational knowledge of the subject in question.
   - Provide concise answers, unless I ask for a more detailed explanation.
