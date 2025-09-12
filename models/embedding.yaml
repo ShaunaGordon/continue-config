@@ -13,3 +13,5 @@ models:
     model: nomic-embed-text:latest
     roles:
       - embed
+    defaultCompletionOptions:
+      contextLength: 4096
