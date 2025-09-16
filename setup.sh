@@ -1,5 +1,10 @@
 #! /bin/bash
 
+# This mostly goes with my dotfiles repo, but I found that
+# just having a repo for the customizations is pretty sufficient
+# and pretty much bypasses most of this. I might move this file
+# to dotfiles, and use it for pulling the repo or whatever.
+
 workingDir=$(pwd)
 
 # No .continue directory yet? Make it.
