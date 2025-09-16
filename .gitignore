@@ -4,6 +4,7 @@
 !config.yaml
 !setup.sh
 !README.md
+!.continuerc.json
 
 !assistants/
 !assistants/**/*
