@@ -19,3 +19,5 @@
 !prompts/**/*
 !rules/
 !rules/**/*
+!localHub
+!localHub/**/*
