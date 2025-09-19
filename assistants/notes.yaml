@@ -27,7 +27,3 @@ prompts:
     prompt: |
       @codebase @currentFile Analyze the current file and suggest tags for it.
       Look for tags in other files that potentially match and suggest them, so that files can be linked together.
-
-docs:
-  - name: Foam
-    startUrl: https://foambubble.github.io/foam/
