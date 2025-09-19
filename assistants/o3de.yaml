@@ -16,5 +16,5 @@ context:
   - provider: search
   - provider: terminal
 
-rules:
-  - uses: ~/.continue/localhub/rules/cognee_rules.md
+mcpServers:
+  - uses: ~/.continue/pandoc.yaml
