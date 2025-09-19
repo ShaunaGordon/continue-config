@@ -17,4 +17,4 @@ context:
   - provider: terminal
 
 rules:
-  uses: ~/.continue/localhub/rules/cognee_rules.md
+  - uses: ~/.continue/localhub/rules/cognee_rules.md
