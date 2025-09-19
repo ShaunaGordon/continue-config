@@ -16,5 +16,5 @@ context:
   - provider: search
   - provider: terminal
 
-mcpServers:
-  - uses: ~/.continue/pandoc.yaml
+# mcpServers:
+#   - uses: ~/.continue/pandoc.yaml
