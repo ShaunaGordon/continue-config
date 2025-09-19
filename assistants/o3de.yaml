@@ -15,3 +15,6 @@ context:
   - provider: problems
   - provider: search
   - provider: terminal
+
+rules:
+  uses: ~/.continue/localhub/rules/cognee_rules.md
