@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
-name: Granite4 Small
+name: Granite4
 version: 1.0.0
 schema: v1
 
@@ -10,6 +10,6 @@ ollama_provider: &ollama_provider
     - tool_use
 
 models:
-  - name: Granite4 Small
+  - name: Granite4
     <<: *ollama_provider
-    model: granite4:small-h
+    model: granite4:latest
