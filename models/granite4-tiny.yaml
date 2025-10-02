@@ -12,4 +12,4 @@ ollama_provider: &ollama_provider
 models:
   - name: Granite4 Small
     <<: *ollama_provider
-    model: granite4:small-h
+    model: granite4:tiny-h
