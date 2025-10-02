@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
-name: Command-R
+name: Granite4 Small
 version: 1.0.0
 schema: v1
 
@@ -10,6 +10,6 @@ ollama_provider: &ollama_provider
     - tool_use
 
 models:
-  - name: Command-R
+  - name: Granite4 Small
     <<: *ollama_provider
-    model: command-r:latest
+    model: granite4:small-h
