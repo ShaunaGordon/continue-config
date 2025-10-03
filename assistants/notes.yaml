@@ -6,6 +6,9 @@ schema: v1
 
 models:
   - uses: ~/.continue/localHub/models/granite4-small.yaml
+  - uses: ~/.continue/localHub/models/granite4.yaml
+  - uses: ~/.continue/localHub/models/command-r7b.yaml
+  - uses: ~/.continue/localHub/models/command-r.yaml
 
 context:
   - provider: code
