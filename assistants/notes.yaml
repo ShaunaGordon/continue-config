@@ -27,5 +27,5 @@ prompts:
   - name: Tag This File
     description: Suggest tags for the current file.
     prompt: |
-      @codebase @currentFile Analyze the current file and suggest tags for it.
+      @currentFile Analyze the current file and suggest tags for it.
       Look for tags in other files that potentially match and suggest them, so that files can be linked together.
