@@ -4,6 +4,9 @@ name: Notes Assistant
 version: 1.0.0
 schema: v1
 
+models:
+  - uses: ~/.continue/localHub/models/
+
 context:
   - provider: code
   - provider: currentFile
