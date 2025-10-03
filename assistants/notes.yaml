@@ -6,7 +6,6 @@ schema: v1
 
 context:
   - provider: code
-  - provider: codebase
   - provider: currentFile
   - provider: diff
   - provider: docs
