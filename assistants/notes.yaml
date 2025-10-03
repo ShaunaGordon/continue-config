@@ -5,7 +5,7 @@ version: 1.0.0
 schema: v1
 
 models:
-  - uses: ~/.continue/localHub/models/granite4.yaml
+  - uses: ~/.continue/localHub/models/granite4-small.yaml
 
 context:
   - provider: code
