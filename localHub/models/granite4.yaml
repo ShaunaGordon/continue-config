@@ -13,9 +13,3 @@ models:
   - name: Granite4
     <<: *ollama_provider
     model: granite4:latest
-  - name: Granite4 Tiny
-    <<: *ollama_provider
-    model: granite4:tiny-h
-  - name: Granite4 Small
-    <<: *ollama_provider
-    model: granite4:small-h
