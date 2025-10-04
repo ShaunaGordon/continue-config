@@ -6,7 +6,7 @@ schema: v1
 
 ollama_provider: &ollama_provider
   provider: ollama
-  capbilities:
+  capabilities:
     - tool_use
 
 models:
