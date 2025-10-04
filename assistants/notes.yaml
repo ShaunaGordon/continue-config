@@ -11,7 +11,7 @@ models:
   - uses: ~/.continue/localHub/models/command-r.yaml
   - uses: ~/.continue/localHub/models/gpt-oss.yaml
   - uses: ~/.continue/localHub/models/qwen-coder.yaml
-  - uses: ~/.continue/localHub/models/qwen3-large-context.yaml
+  - uses: ~/.continue/localHub/models/qwen3-big.yaml
 
 context:
   - provider: code
