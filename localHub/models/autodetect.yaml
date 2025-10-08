@@ -1,0 +1,9 @@
+name: Ollama Autodetect
+version: 1.0.0
+schema: v1
+models:
+  - name: Ollama Autodetect
+    provider: ollama
+    model: AUTODETECT
+    capabilities:
+      - tool_use

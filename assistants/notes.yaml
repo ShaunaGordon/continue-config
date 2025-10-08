@@ -5,8 +5,6 @@ version: 1.0.0
 schema: v1
 
 models:
-  - uses: ~/.continue/localHub/models/granite4-small.yaml
-  - uses: ~/.continue/localHub/models/granite4.yaml
   - uses: ~/.continue/localHub/models/command-r7b.yaml
   - uses: ~/.continue/localHub/models/command-r.yaml
   - uses: ~/.continue/localHub/models/gpt-oss.yaml
