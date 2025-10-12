@@ -1,0 +1,22 @@
+%YAML 1.1
+---
+name: Devstral
+version: 1.0.0
+schema: v1
+
+ollama_provider: &ollama_provider
+  provider: ollama
+
+models:
+  - name: Devstral
+    <<: *ollama_provider
+    model: devstral:latest
+    capabilities:
+      - tool_use
+    roles:
+      - chat
+      - edit
+      - apply
+    defaultCompletionOptions:
+      # contextLength: 33536
+      temperature: 0.1

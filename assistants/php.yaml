@@ -4,14 +4,25 @@ name: PHP Assistant
 version: 1.0.0
 schema: v1
 
+models:
+  - uses: ~/.continue/localHub/models/autocomplete.yaml
+  - uses: ~/.continue/localHub/models/embedding.yaml
+  - uses: ~/.continue/localHub/models/autodetect.yaml
+  - uses: ~/.continue/localHub/models/gpt-oss.yaml
+
 context:
+  - provider: clipboard
   - provider: code
   - provider: codebase
   - provider: currentFile
   - provider: diff
   - provider: docs
+  - provider: file
   - provider: folder
   - provider: open
   - provider: problems
-  - provider: search
+  - provider: repo-map
+    params:
+      includeSignatures: false
   - provider: terminal
+  - provider: tree

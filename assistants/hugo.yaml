@@ -4,6 +4,11 @@ name: Hugo Assistant
 version: 1.0.0
 schema: v1
 
+models:
+  - uses: ~/.continue/localHub/models/autocomplete.yaml
+  - uses: ~/.continue/localHub/models/embedding.yaml
+  - uses: ~/.continue/localHub/models/autodetect.yaml
+
 context:
   - provider: code
   - provider: codebase

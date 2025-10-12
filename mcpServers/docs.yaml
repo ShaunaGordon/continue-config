@@ -1,0 +1,8 @@
+name: Docs MCP
+version: 1.0.0
+schema: v1
+
+mcpServers:
+  - name: Context7 MCP
+    type: streamable-http
+    url: https://mcp.context7.com/mcp

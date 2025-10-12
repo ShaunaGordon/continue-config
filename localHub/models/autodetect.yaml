@@ -7,3 +7,10 @@ models:
     model: AUTODETECT
     capabilities:
       - tool_use
+    roles:
+      - chat
+      - apply
+      - edit
+    defaultCompletionOptions:
+      contextLength: 33536
+      temperature: 0.1

@@ -5,11 +5,9 @@ version: 1.0.0
 schema: v1
 
 models:
-  - uses: ~/.continue/localHub/models/command-r7b.yaml
-  - uses: ~/.continue/localHub/models/command-r.yaml
-  - uses: ~/.continue/localHub/models/gpt-oss.yaml
-  - uses: ~/.continue/localHub/models/qwen-coder.yaml
-  - uses: ~/.continue/localHub/models/qwen3-big.yaml
+  - uses: ~/.continue/localHub/models/autocomplete.yaml
+  - uses: ~/.continue/localHub/models/embedding.yaml
+  - uses: ~/.continue/localHub/models/autodetect.yaml
 
 context:
   - provider: code

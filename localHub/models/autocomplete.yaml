@@ -1,8 +1,8 @@
-name: Instinct
+name: Autocomplete
 version: 1.0.2
 schema: v1
 models:
-  - name: Instinct
+  - name: Autocomplete
     provider: ollama
     model: nate/instinct
     roles:

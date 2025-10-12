@@ -3,12 +3,20 @@ name: gpt-oss 20b
 version: 1.1.0
 schema: v1
 models:
-- name: gpt-oss 20b
-  provider: ollama
-  model: gpt-oss:latest
-  roles:
-    - apply
-    - chat
-    - edit
-  capabilities:
-    - tool_use
+  - name: gpt-oss
+    # provider: ollama
+    # model: gpt-oss:latest
+    provider: openai
+    model: gpt-4o
+    apiBase: "http://localhost:11434/v1"
+    apiKey: "ollama"
+    capabilities:
+      - tool_use
+    supportsTools: true
+    roles:
+      - chat
+      - apply
+      - edit
+    defaultCompletionOptions:
+      contextLength: 16768
+      temperature: 0.1
