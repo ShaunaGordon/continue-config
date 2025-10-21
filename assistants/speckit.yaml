@@ -5,3 +5,4 @@ schema: v1
 models:
   - uses: ~/.continue/localHub/models/autocomplete.yaml
   - uses: ~/.continue/localHub/models/embedding.yaml
+  - uses: ~/.continue/localHub/models/autodetect.yaml
