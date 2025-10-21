@@ -1,0 +1,6 @@
+name: SpecKit Agent
+version: 1.0.0
+schema: v1
+
+models:
+  - uses: ~/
