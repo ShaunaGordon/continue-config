@@ -3,4 +3,5 @@ version: 1.0.0
 schema: v1
 
 models:
-  - uses: ~/
+  - uses: ~/.continue/localHub/models/autocomplete.yaml
+  - uses: ~/.continue/localHub/models/embedding.yaml
